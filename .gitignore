@@ -1,0 +1,15 @@
+## Node and Electron-Forge
+
+node_modules
+out
+package
+
+## OS Specific
+
+.DS_Store
+Thumbs.db
+
+## Special Tools
+
+launch.bat
+files_old

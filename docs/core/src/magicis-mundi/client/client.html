@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+		
+		<meta name="author" content="Evgenii Kolibaba">
+        <meta name="description" content="Magicis Mundi - is a 2d mmorpg game in development and open source about adventures in the open world">
+		
+        <title>блять что это</title>
+		
+		<link rel="stylesheet" href="styles/style.css">
+    </head>
+	
+    <body>
+	    <div id="menu-box"> 
+		    <div id="font-box"></div>
+			
+			<div id="main-menu-box">
+			    <div id="logo-box">Блять что Это</div>
+				<div id="main-menu-buttons">
+				    <div class="menu-button" id="main-menu-button-play">дэнсить</div>
+					<div class="menu-button" id="main-menu-button-settings">настроивать</div>
+				</div>
+			</div>
+			
+			<div class="inframe-menu" id="play-menu-box">
+			    <div class="menu-button" id="play-menu-exit">нахуй</div>
+				<div id="play-menu-buttons">
+				    <div class="menu-button" id="play-menu-button-singleplayer">в соло</div>
+					<div class="menu-button" id="play-menu-button-load">загрузить денс</div>
+					<div class="menu-button" id="play-menu-button-multyplayer">дуо шд</div>
+				</div>
+			</div>
+			
+			<div class="inframe-menu" id="settings-menu-box">
+			    <div class="menu-button" id="settings-menu-exit">нахуй</div>
+			</div>
+				
+			<div id="version-box">версию гружу</div>
+			<div id="debug-box"></div>
+		</div>
+		
+		<div id="scene-box">
+		    <canvas id="scene"></canvas>
+			<div id="button-pause"></div>
+			<div id="joystick-box"></div>
+		</div>
+
+        <!-- loading scripts -->
+		
+		<script src='../../libs/Random.js'></script>
+		<script src='../../libs/JoyStick.js'></script>
+		
+		<script src='../../libs/Noise/Simplex.js'></script>
+		
+		
+		
+		<script src='../ui/UI.js'></script>
+		
+		
+		
+		<script src='../world/Block.js'></script>
+		<script src='../world/blocks/Floor.js'></script>
+		<script src='../world/blocks/Overlay.js'></script>
+		<script src='../world/blocks/HeightChangeBlock.js'></script>
+		<script src='../world/blocks/MultiBlock.js'></script>
+		
+		<script src='../world/Entity.js'></script>
+		<script src='../world/entities/Player.js'></script>
+		<script src='../world/entities/MagicSphere.js'></script>
+		
+		<script src='../world/Spell.js'></script>
+		
+		<script src='../content/ContentList.js'></script>
+		<script src='../content/Blocks.js'></script>
+		<script src='../content/Structures.js'></script>
+		<script src='../content/Entities.js'></script>
+		<script src='../content/Spells.js'></script>
+		
+		
+		
+		<script src='../graphics/Graphics.js'></script>
+		<script src='../graphics/Camera.js'></script>
+		<script src='../graphics/Drawer.js'></script>
+		<script src='../graphics/TextureLoader.js'></script>
+		
+		<!--script src='../input/mods.js'></script-->
+		<script src='../input/Controls.js'></script>
+		
+
+		
+		<script src='../world/Tile.js'></script>
+		<script src='../world/Tiles.js'></script>
+		<script src='../map/EntitiesSet.js'></script>
+		<script src='../map/Structure.js'></script>
+		
+		<script src='../map/Dimension.js'></script>
+		<script src='../map/World.js'></script>
+		<script src='../map/Map.js'></script>
+				
+		<script src='../map/generators/BaseGenerator.js'></script>
+		<script src='../map/generators/BasicGenerator.js'></script>
+		
+		<script src='../map/generators/CaveGenerator.js'></script>
+		<script src='../map/generators/OpenWorldGenerator.js'></script>
+		<script src='../map/generators/TestWorldGenerator.js'></script>
+		<script src='../map/generators/DarknessWorldGenerator.js'></script>
+		
+		
+		
+		<script src='../core/GameStates.js'></script>
+		
+		
+		
+		<script src='../Vars.js'></script>
+		
+		<!-- Main 'Start' Module -->
+		<script src='../core/Core.js'></script>
+		
+		<script src='../core/NetConnection.js'></script>
+    </body>
+</html>
