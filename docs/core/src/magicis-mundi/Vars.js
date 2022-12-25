@@ -29,7 +29,7 @@ const Vars = {
 	graphics: new Graphics(document.getElementById('scene')),
 	controls: new Controls(),
 	
-	loader: new TextureLoader('/core/assets-raw/sprites'),
+	loader: new TextureLoader('/matvej/core/assets-raw/sprites'),
 	
 	content: new Set([Blocks, Entities, Structures]),
 	mods: new Set(),
