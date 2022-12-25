@@ -143,7 +143,9 @@ input:checked + .slider:before {
 
 
 
-
+#pre-load {
+	visibility: hidden;
+}
 
 
 #button-pause{
